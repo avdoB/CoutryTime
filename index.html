@@ -4,20 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="video.css">
+  <link rel="stylesheet" href="/css/video.css">
 </head>
 <body>
   <div class="menu-btn">
+    <img src="https://img.icons8.com/ios-filled/50/000000/menu.png"/>
   </div>
   <div class="container">
+    <!-- Nav -->
     <nav class="main-nav">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/country-time-2-logo-png-transparent.png" alt="" class="logo">
+      <img src="lg.svg" alt="" class="logo">
       <ul class="main-menu">
         <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
         <li><a href="#">Recipes</a></li>
        <li><a class="btn2" href="#">Product locator</a></li>
       </ul>
     </nav>
+    <!--hamburger-->
+    <ul class="right-menu">
+      <li>
+        <a href="#">
+          <i class="fas fa-search"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+    
+    <!-- Showcase -->
     <header class="showcase">
       <div  class="video"><h2><img src="https://img.icons8.com/cotton/64/000000/citrus-1.png"/>Country Time Lemonade</h2>
         <p>
@@ -34,7 +53,7 @@
     <div class="row">
       <div class="column">
         <div class="card">
-          <img  class='zoom'src="https://d36rz30b5p7lsd.cloudfront.net/gourmetcat/product/imagename/img/products-lemonade.png" alt="">
+          <img  class='zoom'src="/prod/products-lemonade.png" alt="">
           <h3>Lemonade</h3>
           <p>The Official Lemonade, of Lemonade Stands !</p>
           <p><a  href="#" class="btn">
@@ -44,7 +63,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img  class='zoom' src="https://d36rz30b5p7lsd.cloudfront.net/gourmetcat/product/imagename/img/products-pink-lemonade.png" alt="">
+          <img  class='zoom' src="/prod/products-pink-lemonade.png" alt="">
           <h3>Pink Lemonade</h3>
           <p>A little less tart and a little more Pink!</p>
           <p><a  href="#" class="btn">
@@ -54,7 +73,7 @@
       </div>  
       <div class="column">
         <div class="card">
-          <img  class='zoom' src="https://d36rz30b5p7lsd.cloudfront.net/gourmetcat/product/imagename/img/products-half-and-half.png" alt="">
+          <img  class='zoom' src="/prod/products-half-and-half.png" alt="">
           <h3>Half & Half</h3>
           <p>Half Lemonade and Half Iced Tea for that classic taste.</p>
           <p><a  href="#" class="btn">
@@ -64,7 +83,7 @@
       </div>   
       <div class="column">
         <div class="card">
-          <img  class='zoom' src="https://d36rz30b5p7lsd.cloudfront.net/gourmetcat/product/imagename/img/products-strawberry-lemonade.png" alt="">
+          <img  class='zoom' src="/prod/products-strawberry-lemonade.png" alt="">
           <h3>Strawberry Lemonade</h3>
           <p>A new twist <br> on a favorite classic!</p>
           <p><a  href="#" class="btn">
@@ -94,7 +113,7 @@
     <section class="legal">
       <div class="content">
         <h2> FIND YOUR COOL DOWN,</h2>
-        <p> Unt, debitis nulla,Ipsa veniam sequi tempore.</p>
+        <p> Unt, debitis nulla. Ipsa veniam sequi tempore odit repellat saepe impedit.</p>
         <a class="btn" href="#">Product Locator</a></li>
       </div>
     </section>
@@ -104,5 +123,6 @@
       <img class="social" src="https://img.icons8.com/metro/26/000000/twitter.png"/>
       <img class="social" src="https://img.icons8.com/android/24/000000/facebook-new.png"/>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
