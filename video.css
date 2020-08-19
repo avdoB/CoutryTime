@@ -65,7 +65,7 @@ ul{
   border: 0;
   font-weight: bold;
   padding: 2px 20px;
-  padding-right: 2px;
+  margin-right: 2px;
   background: rgb(248, 250, 255);
   color: rgb(88, 88, 88);
   font-size: 15px;
