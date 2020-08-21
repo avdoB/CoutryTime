@@ -6,6 +6,6 @@ One day i stumbled upon some old commercials from Country Time. Country Time is 
 If you have time check one of them, on my site.
 I also decided to do a redesign of their original  website (https://www.countrytime.com/), because i though it needed some clean up.
 
-redesign- ttps://avdob.github.io/CoutryTime/
+redesign- https://avdob.github.io/CoutryTime/
 
 #More is to come
