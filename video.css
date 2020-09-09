@@ -156,7 +156,6 @@ margin-bottom: 60px;
     width: 50%;
     height: 100%;
     border-right: rgba(0, 27, 114, 0.329) 1px solid;
-    opacity: 0.9;
     padding: 30px;
     transform: translateX(-500px);
     transition: transform 0.5s ease-in-out;
